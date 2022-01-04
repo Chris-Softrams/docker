@@ -29,6 +29,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           custom_tag: ${{ steps.date.outputs.date }}
           tag_prefix: ''
+        continue-on-error: true
       -
         name: Docker meta
         id: meta
