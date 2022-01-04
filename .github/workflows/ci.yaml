@@ -69,3 +69,5 @@ jobs:
         with:
           committer_username: keepalive-bot
           committer_email: keepalive-bot@keepalive-bot
+          commit_message: Automated commit by Keepalive Workflow to keep the repository active
+          time_elapsed: 50
